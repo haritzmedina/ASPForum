@@ -1,0 +1,24 @@
+Jaiotze data:&nbsp;<select size=1 name="eguna">
+    <%
+      response.write("<option></option>")
+      for a = 1 to 31
+        response.write("<option>" & a & "</option>")
+      next
+    %>
+    </select>&nbsp;
+    <select size=1 name="hila">
+    <%
+      response.write("<option></option>")
+      for a = 1 to 12
+        response.write("<option>" & a & "</option>")
+      next
+    %>
+    </select>&nbsp;
+    <select size=1 name="urte">
+    <%
+      response.write("<option></option>")
+      for a = year(date)-130 to year(date)
+        response.write("<option>" & a & "</option>")
+      next
+    %>
+    </select><br/>

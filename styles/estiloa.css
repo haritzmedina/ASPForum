@@ -1,0 +1,29 @@
+table
+{
+  border: 1px solid #666666;
+  background-color:orange;
+  align:center;
+}
+
+body
+{
+  background-color:#AAAAAA;
+}
+
+.error
+{
+  color:red;
+  text-decoration:bold;
+}
+
+.goi
+{
+  font-size:18;
+  color:red;
+  text-decoration:bold;
+}
+
+h1
+{
+  text-align:center;
+}

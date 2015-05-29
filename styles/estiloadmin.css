@@ -1,0 +1,47 @@
+body
+{
+  background-color:black;
+}
+
+a
+{
+  color:yellow;
+  font-weight:blink;
+}
+a:hover
+{
+  color:white;
+  font-weight:bold;
+}
+
+font.izena
+{
+  font-style:italic;
+  color:white;
+}
+
+td.users
+{
+  border:3px solid #555555;
+}
+
+font.advert
+{
+  text-align:center;
+  font-size:200%;
+  color:red;
+  text-decoration:underline;
+}
+
+font.title
+{
+  color:orange;
+  font-size:175%;
+  text-decoration:underline;
+}
+
+font.top
+{
+  color:#0066CC;
+  font-weight:bold;
+}
